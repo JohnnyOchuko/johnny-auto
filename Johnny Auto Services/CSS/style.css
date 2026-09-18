@@ -1,0 +1,102 @@
+body {
+    background-color: red;
+    
+}
+
+
+h1 {
+    padding: 40px 20px;
+    text-align: center;
+}
+ h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 32px;
+}
+
+p {
+    background-color: white;
+    padding: 25px;
+    margin: 15px auto;
+    max-width: 500px;
+    border-radius: 10px;
+}
+
+ul {
+    background-color: white;
+    width: 500px;
+    margin: 15px auto;
+    padding: 25px 50px;
+    border-radius: 10px;
+    box-sizing: border-box;
+
+}
+
+nav {
+    background-color: black;
+    padding: 20px;
+    text-align: right;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 20px;
+    font-size: 18px;
+}
+
+.hero {
+    min-height: 100vh;
+    background-image: url("IMG_Car.JPG");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: red;
+    padding: 40px 20px;
+}
+
+.hero-content {
+    max-width: 700px;
+}
+.hero h1 {
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-family: 50px;
+    margin-bottom: 30px;
+} 
+
+.hero-btn {
+    display: inline-block;
+    background-color: #e63946;
+    color:#ffff;
+    padding: 14px 30px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.hero-btn:hover {
+    background-color: #c1121f;
+}
+
+/* Responsive Design */
+@media (max-width:  768px) {
+    .hero {
+        min-height: 100vh;
+        padding: 80px 20px 40px;
+    }
+    .hero img {
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+    }
+}
+
+
+
